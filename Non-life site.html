@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="robots" content="noindex, nofollow">
+<title>Non-life – ghid de lucru</title>
+<style>
+:root{--bg:#f6f8fa;--card:#fff;--soft:#eaf0f5;--ink:#12263a;--mute:#5a6b7c;--line:#dbe3ea;--navy:#12263a;--navink:#fff;--or:#f5a33b;--orink:#8a5200;--no:#9a3b3b;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+:root:not([data-theme="light"]){color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0d1620;--card:#15222f;--soft:#1b2b3a;--ink:#e8eef4;--mute:#97a8b8;--line:#26384a;--navy:#0a111a;--or:#f5a33b;--orink:#f5b866;--no:#e59090;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0d1620;--card:#15222f;--soft:#1b2b3a;--ink:#e8eef4;--mute:#97a8b8;--line:#26384a;--navy:#0a111a;--or:#f5a33b;--orink:#f5b866;--no:#e59090;color-scheme:dark}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 Calibri,"Segoe UI",system-ui,-apple-system,Roboto,sans-serif}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--navy);z-index:20}
+header{background:var(--navy);color:var(--navink);position:sticky;top:env(safe-area-inset-top,0px);z-index:10}
+.hin{max-width:980px;margin:0 auto;padding:12px 20px 0}
+.brand{font-weight:700;font-size:18px;margin-bottom:8px}
+.brand span{color:var(--or)}
+.tabs{display:flex;gap:4px;overflow-x:auto}
+.tabs a{color:#cfd9e3;text-decoration:none;padding:9px 16px;border-radius:8px 8px 0 0;font-size:15px;white-space:nowrap}
+.tabs a.on{background:var(--bg);color:var(--ink);font-weight:700}
+.tabs a.r{margin-left:auto}
+.red{color:#c62828;font-weight:700}.blue{color:#0b63c5;font-weight:700}
+@media(prefers-color-scheme:dark){:root:not([data-theme="light"]) .red{color:#ff8a80}:root:not([data-theme="light"]) .blue{color:#7db8ff}}
+:root[data-theme="dark"] .red{color:#ff8a80}:root[data-theme="dark"] .blue{color:#7db8ff}
+.btn{display:inline-block;background:var(--or);color:#12263a;font-weight:700;border-radius:8px;padding:9px 18px;text-decoration:none;margin:12px 10px 0 0}
+main{max-width:980px;margin:0 auto;padding:32px 20px 70px}
+h1{font-size:34px;line-height:1.15;margin:0 0 6px;font-family:Verdana,"Segoe UI",sans-serif;font-weight:700}
+h2{font-size:23px;margin:40px 0 4px;font-family:Verdana,"Segoe UI",sans-serif}
+h3{font-size:16px;margin:0 0 6px}
+.sub{color:var(--mute);margin:0 0 20px}
+.g{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));margin-top:14px}
+.c{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px 18px}
+.c p{margin:0;color:var(--mute);font-size:15px}
+.dk{background:var(--navy);color:#fff;border-color:var(--navy)}
+.dk h3{color:var(--or)}.dk p{color:#d6e0ea}
+.big{font-size:36px;font-weight:700;color:var(--or);line-height:1.1}
+.so{background:var(--soft);border-color:var(--soft)}
+ul{margin:0;padding-left:20px}li{margin:4px 0}
+ol{margin:6px 0;padding-left:22px}
+.cols{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.pill{display:inline-block;background:var(--or);color:#12263a;font-weight:700;border-radius:20px;padding:1px 10px;font-size:13px;margin-bottom:6px}
+.tpl{background:var(--soft);border-left:4px solid var(--or);border-radius:8px;padding:12px 16px;margin-top:10px;white-space:pre-wrap;font-size:15px}
+button{font:inherit;font-size:14px;cursor:pointer;border:1px solid var(--line);background:var(--card);color:var(--ink);border-radius:8px;padding:5px 12px;margin-top:8px}
+button:hover{border-color:var(--or)}
+button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--or);outline-offset:2px}
+.note{background:var(--soft);border-radius:8px;padding:10px 14px;margin-top:12px;font-size:15px}
+details{background:var(--card);border:1px solid var(--line);border-radius:12px;margin-top:10px}
+summary{cursor:pointer;padding:14px 18px;font-weight:700;font-size:17px}
+summary small{display:block;font-weight:400;color:var(--mute);font-size:14px}
+.dbody{padding:0 18px 18px}
+.q{border-left:3px solid var(--or);padding:2px 0 2px 12px;margin-top:12px;color:var(--mute);font-style:italic}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:6px 0 24px}
+.chips a{text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:22px;padding:7px 16px;font-size:15px}
+.chips a.on{background:var(--navy);color:#fff;border-color:var(--navy);font-weight:700}
+.tw{overflow-x:auto;margin-top:10px}
+table{border-collapse:collapse;width:100%;font-size:14.5px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{color:var(--mute);font-weight:600}
+.yes h3{color:var(--orink)}.nope h3{color:var(--no)}
+.cost{background:var(--navy);color:#fff;border-radius:10px;padding:14px 18px;margin-top:20px}
+.cost b{color:var(--or)}
+.ft{color:var(--mute);font-size:14px;margin-top:14px}
+@media(max-width:600px){h1{font-size:26px}main{padding:24px 16px 60px}}
+</style>
+</head>
+<body>
+<header><div class="hin"><div class="brand">Non-life <span>·</span> ghid de lucru</div><nav class="tabs" id="tabs"></nav></div></header>
+<main id="app"></main>
+<script>
+var TABS=[["acasa","Pagina principală"],["proceduri","Proceduri"],["cab","CAB"],["asigurari","Asigurări"],["campanie","Campanie"],["contact","Contact"]];
+function esc(s){return s}
+function li(a){return"<ul>"+a.map(function(x){return"<li>"+x+"</li>"}).join("")+"</ul>"}
+function cards(a,cls){return'<div class="g">'+a.map(function(x){return'<div class="c '+(cls||"")+'"><h3>'+x[0]+"</h3><p>"+x[1]+"</p></div>"}).join("")+"</div>"}
+
+/* ---------- PAGINA PRINCIPALĂ ---------- */
+function acasa(){
+return'<h1>Oportunitatea momentului</h1><p class="sub">Intermedierea asigurărilor, pas cu pas. Seminar non-life.</p>'+
+'<h2>De ce facem prin specialist?</h2><div class="g"><div class="c dk"><div class="big">10–30%</div><p>din proces îl faci tu</p></div><div class="c dk"><div class="big">70%</div><p>din comision îl primești</p></div><div class="c dk"><div class="big">100%</div><p>din unități le primești, oricum</p></div></div><p class="note">În același timp pe care l-ai aloca oricum, poți face de 2 ori mai mulți bani.</p>'+
+'<h2>Cum ajută specialistul</h2><p class="sub">Tu aduci clientul, eu mă ocup de restul.</p>'+cards([["Timp câștigat","Faci doar 10–30% din proces. Timpul rămas îl investești în contacte noi și în clienții tăi."],["Know-how","Nu trebuie să cunoști condițiile fiecărui produs sau ce se recomandă. Preiau eu procesul."],["Nu ești singur","Dacă apare o eroare, nu cauți pe cont propriu o platformă sau un contact la asigurător."],["Cross-sell","Vorbesc direct cu clientul și pot propune RCA sau alte servicii. Efortul tău e zero, tu primești unități și comision."]])+
+'<h2>De ce intermediem serviciile?</h2><p class="sub">Sunt foarte utile pentru oameni și aduc mai multe polițe la același client. Sursa: Allianz Capital Markets Day 2024.</p><div class="g"><div class="c so"><h3>Cross-sell</h3><p>Cu cât are mai multe servicii, cu atât cumpără mai ușor altele.</p></div><div class="c dk"><h3>Grad de retenție</h3><p>Mai multe polițe înseamnă mai puține renunțări.</p></div></div>'+
+'<div class="tw"><table><tr><th>Contracte</th><th>Șansa de a cumpăra încă o poliță</th><th>Rata de renunțare</th></tr><tr><td>1</td><td>3%</td><td>11%</td></tr><tr><td>2</td><td>7%</td><td>4%</td></tr><tr><td>3</td><td>9%</td><td>2%</td></tr><tr><td>6+</td><td>peste 13%</td><td>0,5%</td></tr></table></div>'+
+'<h2>Venituri</h2><div class="g"><div class="c"><div class="big">8.000 lei / an</div><p>La un portofoliu de 100 de clienți: facultativă + RCA, 80 lei × 100 clienți. De ce am lăsa bani pe masă?</p></div><div class="c"><div class="big">1.160 UN / an</div><p>4 analize pe săptămână: 192 de analize ținute → 58 × 20 UN. Aprox. 10% din totalul anual.</p></div><div class="c"><div class="big">+10% UN</div><p>Cota de calitate: UN care nu dispar. Plata se face anual, fără întârzieri. La 100 de clienți: 2.000 UN în plus într-un an. O lună în plus muncită = al 13-lea salariu.</p></div></div>'+
+'<h2>Tips &amp; tricks: service</h2>'+cards([["Raport de cont","Cost average și alte date, incluse în discuție. + contract non-OVB."],["Obiective","Ce vrea clientul să atingă și cum îl ajuți."],["Asigurări de sănătate","Îi explici cum funcționează, pe înțelesul lui."],["Asigurări","Educație prin asigurări: le explici ce acoperă și de ce contează."]])+
+'<h2>Servicii intermediate</h2><div class="g">'+[["RCA + decontare directă","Asigurarea auto obligatorie. Cu decontarea directă te despăgubește propriul asigurător, fără întârzieri."],["Casco","Asigurare pentru mașina ta, indiferent cine e vinovat. Acoperă reparațiile după accident, furt sau grindină."],["Asistență rutieră","Ajutor dacă mașina rămâne blocată: depanare și tractare, fără costuri neprevăzute."],["Facultativă și PAD","PAD e obligatorie pentru locuință; facultativa o completează: dezastre, incendiu, furt și alte riscuri."],["Răspundere civilă","Pentru daune produse involuntar pacienților. Medicul e protejat financiar; se face ușor și rapid."],["Asigurare animale","Costuri veterinare și daune produse altora, fără surprize."],["Travel","Cheltuieli medicale, repatriere și bagaje, departe de casă."]].map(function(x){return'<div class="c"><h3>'+x[0]+"</h3><p>"+x[1]+"</p></div>"}).join("")+'</div>'+
+'<h2>7 lucruri de știut când intermediezi</h2><div class="c"><ol><li>RCA nu se face din aceeași zi: foarte puțini asigurători acceptă.</li><li>Asistența rutieră pornește în 10 zile; clientul ar trebui s-o facă cât mai repede.</li><li>Facem tot timpul pe proprietar.</li><li>Din când în când, RCA poate ieși mai ieftin în alte părți.</li><li>Nu lucrăm cu toată lumea: uneori e mai ieftin în altă parte, alteori mai scump.</li><li>PJ instant: Casco, RCA și asistență rutieră. Restul e personalizat și durează.</li><li>PF: putem face totul instant.</li></ol></div>'+
+'<h2>Procedura</h2><p class="sub">Alegi tu varianta potrivită. Detaliile sunt în tabul Proceduri.</p><div class="cols"><div class="c"><span class="pill">Varianta A</span><p>Trimiți clientului template-ul pentru asigurarea dorită, apoi mesaj la specialist.</p></div><div class="c"><span class="pill">Varianta B</span><p>Doar date client + GDPR, apoi mesaj la specialist: mă ocup eu full de client.</p></div></div><p class="note">Pași comuni: client interesat (vrea o asigurare sau o are deja), apoi GDPR făcut și date client completate în Easy. Cu template-urile pregătite din timp, eficientizăm mult procesul.</p>'+
+'<h2>Exercițiu</h2><div class="cols"><div class="c so"><h3>5 minute · My Home</h3><p>Gândește-te la 5 persoane care ar avea nevoie de o asigurare de locuință.</p></div><div class="c so"><h3>Câteva minute · RCA</h3><p>Același exercițiu pentru RCA: cine ar putea beneficia?</p></div></div>'+
+'<div class="c dk" style="margin-top:36px"><h3>Contact</h3><p style="font-size:20px;color:#fff">Walter Benedek · 0729 839 908</p></div>'}
+
+/* ---------- PROCEDURI ---------- */
+var TPL=[
+["Poliță travel","Pentru oferta de asigurare travel, am nevoie de:\n1. Destinația\n2. Călătorești singur sau mai adăugăm pe cineva pe poliță?\n3. În ce perioadă călătorești? (data plecării și data întoarcerii)\n4. Dacă mergi cu mașina: vrei și asistență rutieră?\n5. Dacă mergi cu avionul: vrei asigurare pentru bagaje?\n6. Vrei acoperire pentru întârziere sau anulare de zbor?\n7. Vrei asigurare suplimentară pentru sporturi extreme?\n8. Suma asigurată: 30.000 sau 50.000 EUR?\n9. Dacă este vorba de o persoană însărcinată, te rog să menționezi acest lucru: sarcina trebuie anunțată la încheierea poliței."],
+["Poliță RCA","Pentru oferta de RCA, am nevoie de:\n1. Mașina este înmatriculată sau în curs de înmatriculare?\n2. De când ai nevoie de poliță? (dacă nu știi data de expirare, o verificăm noi)\n3. Talonul mașinii (dacă ai doar CIV, trimite-mi și numărul de înmatriculare)\n4. Foarte important: folosești mașina pentru activități de ridesharing sau taxi?","Reține: asistența rutieră pornește în 10 zile, deci merită făcută din timp."],
+["Asistență rutieră","Pentru oferta de asistență rutieră, am nevoie de:\n1. Talonul mașinii"],
+["Casco","Pentru oferta Casco, am nevoie de aceleași date ca la RCA (mai sus) și, în plus, de:\n1. Numărul de kilometri\n2. Numărul de chei\n3. Vrei Casco care să asigure orice caz, sau vedem și variante în care vandalismul ori furtul sunt excluse? (așa putem reduce costul)\n4. Plata o preferi trimestrial, semestrial sau anual?"],
+["Poliță PAD + facultativă","Pentru oferta de asigurare a locuinței (PAD + facultativă), am nevoie de:\n1. Adresa completă a locuinței (inclusiv cod poștal)\n2. Tipul locuinței (apartament / casă)\n3. Anul construcției\n4. Materialul de construcție (beton, cărămidă, lemn etc.)\n5. Suprafața utilă (mp)\n6. Numărul de camere\n7. Dacă este apartament: etajul la care se află și numărul de etaje ale blocului. Dacă este casă: numărul de etaje\n8. Nivelul finisajelor (low / mediu / high / lux)\n9. Locuința este folosită permanent sau ocazional?\n10. Există un credit ipotecar pe locuință? (dacă da, polița trebuie cesionată către bancă)\n11. Valoarea la care vrei să fie asigurată locuința\n12. Vrei să fie asigurate și bunurile din interior (mobilier, electrocasnice etc.)? Dacă da, aproximativ la ce valoare?\n13. Există anexe care vrei să fie asigurate?"]];
+function proceduri(){
+return'<h1>Proceduri</h1><p class="sub">Proceduri și template-uri gata de trimis.</p>'+
+'<h2>Cum colaborăm</h2><p class="sub">Alegi tu varianta potrivită pentru fiecare client.</p><div class="cols"><div class="c"><span class="pill">1 · Vorbim prin voi cu clientul</span><ol><li>Parcurgeți pașii din procedură conform situației.</li><li>Îmi trimiteți un mesaj, ca să trimit eu DNT-ul.</li><li>Între timp puteți trimite clientului template-ul potrivit conform asigurării dorite.</li></ol></div><div class="c"><span class="pill">2 · Vorbesc eu cu clientul</span><ol><li>Mă alocați în Easy.</li><li>Îmi trimiteți un mesaj referitor la discuția deschisă cu clientul (vrea RCA, facultativă etc.).</li></ol></div></div>'+
+'<h2>Procedura</h2><div class="cols"><div class="c"><h3>Pentru a intermedia o asigurare</h3><ol><li>GDPR + date clienți.</li><li>Mă selectați la specialist non-life (se află pe mijloc, la date clienți).</li></ol></div><div class="c"><h3>Polițe viitoare (clienți din analiză)</h3><ol><li>GDPR.</li><li>Mă alocați ca specialist.</li><li>Intrați la contract non-OVB, selectați tipul asigurării pe care o are deja și puneți perioada de valabilitate.</li></ol></div><div class="c"><h3>Clienți existenți care vor pe viitor</h3><ol><li>Mă alocați ca specialist.</li><li>Intrați la contract non-OVB, selectați tipul asigurării pe care o are deja și puneți perioada de valabilitate.</li></ol></div></div>'+
+'<div class="note"><span class="red">Dacă nu știi data la RCA</span>, verifică pe <a class="blue" href="https://aida.info.ro/polite-rca" target="_blank" rel="noopener">aida.info.ro/polite-rca</a> după numărul de înmatriculare, iar dacă nu găsești, după seria de șasiu.</div><div class="c dk" style="margin-top:12px"><h3>Foarte important</h3><p>DNT-ul trebuie să îl trimit eu. Chiar dacă l-ați trimis voi, va trebui să îl trimit și eu încă o dată. Trebuie să fiu alocat ca specialist: așa primesc notificare înainte să expire asigurarea și pot contacta clientul.</p></div>'+
+'<h2>Template-uri</h2><p class="sub">Copiază textul și trimite-l direct clientului.</p>'+
+TPL.map(function(t,i){return'<div class="c" style="margin-top:12px"><h3>'+t[0]+'</h3><div class="tpl" id="t'+i+'">'+t[1]+'</div>'+(t[2]?'<p class="note">'+t[2]+'</p>':'')+'<button data-i="'+i+'">Copiază textul</button></div>'}).join("")}
+
+/* ---------- CAB ---------- */
+var CAB=[
+["Facultativa locuinței + PAD","Casa protejată complet, nu pe jumătate",
+["PAD este obligatorie prin lege și acoperă cutremur, inundații și alunecări de teren.","Facultativa acoperă ce nu acoperă PAD: incendiu, furt, explozie, furtună, grindină, țevi sparte, vandalism.","Poate include și conținutul locuinței (mobilă, electrocasnice), nu doar structura."],
+["Cu PAD ești în regulă cu legea și eviți amenda.","Facultativa completează PAD-ul, deci acoperirea e completă, nu pe jumătate.","Dacă o țeavă crapă sau cineva intră în casă, ai de unde să repari, nu din economii."],
+["Dormi liniștit, știind că munca de o viață nu dispare într-o noapte.","Nu ești nevoit să iei un credit sau să ceri bani de la familie.","Ai protejat locul în care locuiește familia ta."],
+"PAD-ul te acoperă la cutremur și inundație. Dar la o țeavă spartă sau la un furt, cine plătește?"],
+["RCA + decontare directă","Legal în trafic și cu viața mai simplă după un accident",
+["RCA este obligatorie și acoperă daunele pe care le produci altora în trafic.","Decontarea directă: când nu ești vinovat, dauna ta o gestionează propriul asigurător.","Se aplică în accidente simple, cu pagube materiale, în condițiile din reglementări."],
+["Rămâi la un singur interlocutor, firma pe care ai ales-o tu.","Procesul e mai rapid și mai puțin birocratic.","Eviți discuțiile și neînțelegerile cu cealaltă companie de asigurări."],
+["Pierzi mai puțin timp și ai mai puține nervi după un accident.","Mașina ajunge mai repede la reparat și revii la rutina ta.","Ai un om și o firmă la care suni direct, iar eu pot fi omul tău de legătură."],
+"Dacă nu ești vinovat, nu mai alergi după firma celuilalt. Vorbești doar cu asigurătorul tău."],
+["Casco","Mașina ta, protejată chiar și când greșești tu",
+["Acoperă daunele la propria mașină, indiferent cine e vinovat.","Poate include furt, vandalism, calamități naturale, parbriz, coliziuni cu animale.","Se poate alege cu sau fără franșiză, în funcție de buget."],
+["RCA plătește doar dacă ești nevinovat. Casco plătește și când greșești tu.","Primești despăgubire și dacă vinovatul fuge sau nu are RCA.","Poți alege reparația în service autorizat, nu doar o sumă de bani."],
+["Nu te mai îngrijorezi că o greșeală de o secundă te costă mii de euro.","Mașina, adesea a doua mare investiție a unei familii, rămâne protejată.","La mașini noi sau în leasing ai siguranță financiară completă."],
+"RCA plătește doar dacă ai dreptate. Dar dacă greșești tu sau vinovatul fuge, cine îți repară mașina?"],
+["Asistență rutieră","Un telefon și problema ta devine problema lor",
+["Servicii în caz de pană, accident, baterie descărcată sau mașină blocată: tractare, mecanic la fața locului.","Poate include mașină la schimb, cazare sau transport dacă rămâi blocat.","Disponibilă non-stop, în România și, în anumite pachete, și în străinătate."],
+["Ai un singur număr de telefon, nu mai cauți un tractor la 2 noaptea.","Costul tractării și al intervenției e inclus, deci nu negociezi pe loc.","Funcționează la fel pe autostradă, în oraș sau în vacanță."],
+["Nu rămâi blocat și vulnerabil cu familia sau copiii în mașină.","Economisești timp, bani și stres exact când ai deja o problemă.","Călătorești mai relaxat, mai ales pe distanțe lungi."],
+"Ce faci dacă rămâi cu mașina în pană la 2 noaptea, cu copiii în spate?"],
+["Răspundere civilă","Pentru firme, profesii liberale și malpraxis",
+["Acoperă despăgubirile pe care le datorezi unor terți dacă produci un prejudiciu prin activitatea ta.","Pentru medici și alți profesioniști, acoperă erorile profesionale (malpraxis).","Include și costurile de apărare în instanță, în funcție de poliță."],
+["O reclamație nu înseamnă că plătești din buzunar sau din fondurile firmei.","Asigurătorul te sprijină cu expertiză juridică și plătește avocații, în limitele poliței.","Unii clienți, parteneri sau contracte cer asigurarea ca standard de profesionalism."],
+["Afacerea sau cariera ta nu se prăbușește din cauza unei singure greșeli sau a unui proces.","Lucrezi cu mai multă încredere, pentru că ești acoperit.","Inspiri încredere clienților și câștigi contracte mai ușor."],
+"Dacă mâine primești o reclamație, firma plătește din buzunar sau are cine s-o apere?"],
+["Asigurare animale","Grijă pentru cel care face parte din familie",
+["Acoperă tratament medical, intervenții chirurgicale, boli sau accidente, în funcție de pachet.","Poate include răspundere civilă dacă animalul produce un prejudiciu altcuiva.","Unele pachete acoperă și pierderea, furtul sau decesul animalului."],
+["Ai un plan pentru cheltuieli veterinare imprevizibile care pot ajunge la mii de lei.","Poți alege cel mai bun tratament, nu pe cel mai ieftin.","Dacă animalul mușcă sau zgârie pe cineva, ești acoperit și juridic."],
+["Decizi în funcție de ce e mai bine pentru animal, nu de cât ai în cont.","Îl protejezi ca pe un membru al familiei.","Eviți momentul greu în care alegi între bani și sănătatea lui."],
+"Dacă animalul tău are nevoie de o operație de mii de lei, alegi tratamentul bun sau pe cel ieftin?"],
+["Travel","Vacanța rămâne vacanță, orice s-ar întâmpla",
+["Acoperă cheltuieli medicale de urgență în străinătate, inclusiv spitalizare și repatriere.","Poate include bagaje pierdute, anulare sau întrerupere de călătorie, răspundere civilă în vacanță.","Este obligatorie pentru anumite destinații (ex. viză Schengen) și recomandată peste tot."],
+["Un consult sau o internare în străinătate poate costa mii de euro, iar poliza acoperă asta.","Ai asistență 24/7 în limba ta, cu oameni care coordonează totul.","Dacă zborul se anulează sau pierzi bagajul, recuperezi o parte din bani."],
+["Pleci în vacanță concentrat pe distracție, nu pe „ce se întâmplă dacă”.","Nu te lovești de bariera limbii sau a sistemului medical când ești cel mai vulnerabil.","Protejezi atât sănătatea, cât și banii investiți în concediu."],
+"O internare în străinătate poate costa mii de euro. Vrei să plătești tu sau poliza?"]];
+function cab(){
+return'<h1>CAB</h1><p class="sub">Caracteristici · Avantaje · Beneficii. Ghid pentru discuțiile cu clienții: asigurări pe înțelesul clientului.</p>'+
+'<h2>Cum folosești CAB într-o discuție</h2><div class="g"><div class="c"><h3>Caracteristică</h3><p>Ce este produsul și ce acoperă. „Travel îți plătește cheltuielile medicale în străinătate.”</p></div><div class="c"><h3>Avantaj</h3><p>Ce face mai bine sau diferit față de situația fără asigurare. „O internare costă mii de euro, iar poliza o acoperă.”</p></div><div class="c"><h3>Beneficiu</h3><p>Ce simte și ce câștigă clientul în viața lui. „Pleci în vacanță concentrat pe distracție, nu pe «ce se întâmplă dacă».”</p></div></div>'+
+'<div class="c dk" style="margin-top:14px"><h3>Regula de aur</h3><p>Începe cu o întrebare, află ce contează pentru client, apoi alege un singur beneficiu care i se potrivește.</p></div>'+
+'<h2>Produse</h2>'+CAB.map(function(p,i){return'<details'+(i===0?" open":"")+'><summary>'+p[0]+'<small>'+p[1]+'</small></summary><div class="dbody"><div class="cols"><div><h3>Caracteristici</h3>'+li(p[2])+'</div><div><h3>Avantaje</h3>'+li(p[3])+'</div><div><h3>Beneficii</h3>'+li(p[4])+'</div></div><p class="q"><b>Întrebare de deschidere:</b> „'+p[5]+'”</p></div></details>'}).join("")+
+'<p class="note">Verifică excluderile, sumele și franșizele în condițiile fiecărui asigurător înainte de a promite o acoperire.</p>'+
+'<h2>3 lucruri de ținut minte</h2>'+cards([["Ascultă întâi","Pune întrebări înainte să prezinți. Același produs are beneficii diferite pentru oameni diferiți."],["Un singur beneficiu","Nu înșira tot. Alege ce contează pentru omul din fața ta și spune-l simplu."],["Fii corect cu detaliile","Verifică excluderile și condițiile asigurătorului. Încrederea ta valorează mai mult decât o vânzare."]])}
+
+/* ---------- ASIGURĂRI ---------- */
+var DEF='<div class="note"><b>Ce este franșiza?</b> Partea din daună plătită de client la fiecare eveniment; asigurătorul plătește restul. Exemplu: daună de 5.000 lei, franșiză 500 lei, asigurătorul plătește 4.500 lei.</div>';
+var OPP='<div class="c dk" style="margin-bottom:14px"><h3>Cea mai mare oportunitate din non-life</h3><p>Zonă încă neexploatată: foarte puține locuințe au facultativă, iar comisioanele sunt foarte ok.</p></div><div class="g" style="margin-bottom:8px"><div class="c"><div class="big">~25%</div><p>din locuințe au PAD: aprox. 2,5 milioane din 10,1 milioane (august 2026)</p></div><div class="c"><div class="big">~18%</div><p>au și facultativă: aprox. 1,8 milioane de polițe. Adică 8 din 10 locuințe nu au</p></div><div class="c"><div class="big">~7,6 mil.</div><p>de locuințe fără PAD în vigoare, deci clienți potențiali pentru ambele polițe</p></div></div><p class="ft" style="margin:0 0 20px">Surse: PAD.ro, UNSAR, ZF, 2026. Facultativa se poate încheia doar pentru locuințe care au PAD.</p>';
+var AS=[
+{id:"rezumat",t:"Pe scurt",lead:"Costuri orientative pentru toate asigurările.",html:'<div class="tw"><table><tr><th>Asigurare</th><th>Cost orientativ</th></tr><tr><td>Travel</td><td>30 – 200 lei / călătorie</td></tr><tr><td>RCA</td><td>în medie ~2.100 lei / an</td></tr><tr><td>Casco</td><td>3.000 – 15.000 lei / an</td></tr><tr><td>Asistență rutieră</td><td>56 – 143 lei</td></tr><tr><td>Locuință facultativă</td><td>300 – 1.200 lei / an</td></tr><tr><td>PAD</td><td>130 lei / an</td></tr><tr><td>Animale de companie</td><td>325 – 2.350 lei / an</td></tr><tr><td>Răspundere civilă</td><td>urmează</td></tr></table></div>'+DEF},
+{id:"travel",t:"Travel",lead:"Călătorii în străinătate.",
+ac:["Chat medical 24/7 cu medici licențiați","Asistență medicală de urgență (decontare directă sau rambursare), spitalizare, ambulanță","Tratament dentar de urgență","Repatriere medicală și funerară","Deces sau invaliditate permanentă din accident","Răspundere civilă individuală","Pierderea sau furtul documentelor","La alegere: anulare călătorie, sporturi de iarnă/vară, bagaj și curse aeriene, întrerupere călătorie, asistență rutieră în călătorie","Sarcina: la majoritatea asigurătorilor, evenimentele cauzate de sarcină pot fi asigurate, dar sarcina trebuie anunțată la încheierea poliței. Un singur asigurător nu o acoperă"],
+no:["Afecțiuni preexistente (doar prima urgență, în limită mică)","Evenimente din România sau din țara de cetățenie (excepție: anulare)","Sporturi periculoase fără acoperirea dedicată","Alcool, droguri, medicamente nerecomandate","Controale de rutină și tratamente planificate","Estetică, psihiatrie, recuperare","Sarcina nedeclarată la încheierea poliței (se verifică la fiecare asigurător)"],
+cost:"30 – 200 lei / călătorie, în funcție de destinație, durată, pachet și acoperiri."},
+{id:"rca",t:"RCA",lead:"Răspundere civilă auto, obligatorie.",
+ac:["Daune produse altora într-un accident vinovat: vătămări, deces, vehicule și bunuri","Daune morale pentru victime sau familii","Valabilă în România și în țările din sistemul Carte Verde","Limite legale: ~6,4 milioane lei daune materiale, ~31,9 milioane lei vătămări sau deces, per accident","Opțional: decontare directă"],
+no:["Daunele propriei mașini (pentru asta există Casco)","Bunurile conducătorului vinovat","Partea care depășește limitele legale","Decontarea directă nu se aplică la vătămări, peste 2 vehicule sau fără RCA valid la vinovat"],
+cost:"În medie ~2.100 lei în 2026. București-Ilfov costă aproape dublu față de restul țării, plus vârsta șoferului, puterea motorului și clasa bonus-malus."},
+{id:"casco",t:"Casco",lead:"Asigurarea mașinii proprii.",
+ac:["Coliziune, zgâriere, răsturnare, căderea obiectelor pe mașină","Furt total sau parțial, tentativă de furt","Vandalism","Fenomene naturale: inundații, furtună, grindină, cutremur, zăpadă","Incendiu și explozie","Daune provocate de animale","Elemente vitrate (parbriz, lunetă, geamuri, trapă)","Protecție preț achiziție: valoarea de nou la daună totală","Electrice/plug-in: baterie de tracțiune, cabluri, wallbox","Asistență rutieră, accidente persoane, protecție juridică, clauză service partener"],
+no:["Daune produse intenționat","Șofer fără permis, sub influența alcoolului sau drogurilor, sau care fuge de la locul accidentului","Mașină fără înmatriculare sau autorizație valabilă","Curse, competiții, circuite auto","Defecte de fabricație, uzură normală, daune de consecință","Bunurile din mașină și pierderile indirecte","Avarii existente la încheiere, război, terorism, riscuri cibernetice"],
+cost:"3.000 – 15.000 lei / an, în funcție de mașină, vechime, suma asigurată, șofer și franșiză. Franșiza se scade din fiecare despăgubire. La daună totală (reparații peste 75% din suma asigurată) se reține și valoarea epavei.",extra:DEF},
+{id:"asistenta",t:"Asistență rutieră",lead:"Asigurare separată, pentru autoturisme.",
+ac:["După accident, fără limită de vechime: tractare până la 50 km, transport peste 50 km","Mașină de înlocuire: maxim 7 zile, o singură dată pe poliță","Depanare (mașini până la 10 ani, de maxim 2 ori pe an): reparații la fața locului, baterie descărcată (și la electrice), combustibil, anvelope, chei, tractare până la 50 km","Acoperire în Europa, Turcia și Israel"],
+no:["Mașini de competiție, taxi, rent-a-car, pază, școală de șoferi, transport de marfă sau persoane","Depanare pentru mașini mai vechi de 10 ani la încheiere","Piese și servicii din afara celor incluse"],
+extra:'<h3>Prețuri exacte (lei)</h3><div class="tw"><table><tr><th></th><th>Optim 6 luni</th><th>Optim 12 luni</th><th>Complet 6 luni</th><th>Complet 12 luni</th></tr><tr><td>Clasa I</td><td>56</td><td>74</td><td>77</td><td>102</td></tr><tr><td>Clasa II</td><td>67</td><td>89</td><td>93</td><td>124</td></tr><tr><td>Clasa III</td><td>76</td><td>101</td><td>107</td><td>143</td></tr></table></div><p class="ft">Optim = după accident. Complet = Optim + depanare. Pentru comparație: depanare ~300 lei, tractare în București ~400 lei.</p>'},
+{id:"locuinta",t:"Locuință facultativă",lead:"Clădire, conținut și răspundere civilă.",opp:OPP,
+ac:["Clădirea: structură, instalații, anexe, împrejmuiri, piscină, panouri fotovoltaice declarate","Conținutul: mobilier, electrocasnice, electronice, haine, bunuri casabile, valori și obiecte de artă (cu limite)","Incendiu, trăsnet, explozie","Furtună, ploaie torențială, grindină, zăpadă, inundații, alunecări de teren; cutremur opțional","Daune provocate de apă","Furt prin efracție, tâlhărie, vandalism","Avarii accidentale și scurtcircuit","Asistență la domiciliu (instalator, electrician, încuietori, dezinsecție, electrocasnice)","Cazare temporară până la 90 de zile","Răspundere civilă față de terți"],
+no:["Terenul, clădirile ruinate, abandonate sau în construcție","Clădiri din clasa I de risc seismic (la cutremur, clasele I, II, III)","Infiltrații, igrasie, mucegai, uzură normală","Daune intenționate sau din culpă gravă","Autovehicule, ambarcațiuni, culturi nerecoltate","Furt simplu sau prin înșelăciune, fără efracție","Valori și artă fără alarmă funcțională"],
+cost:"300 – 1.200 lei / an, în funcție de valoarea locuinței, zonă, acoperiri și franșiză."},
+{id:"pad",t:"PAD",lead:"Asigurarea obligatorie a locuinței.",
+ac:["Doar structura clădirii de locuit, nu și bunurile din ea","Doar trei riscuri naturale: cutremur, inundații naturale și alunecări de teren"],
+no:["Inundațiile provocate de oameni sau instalații: dacă te inundă vecinul (țeavă spartă, apă de la etaj), PAD nu plătește","Conținutul locuinței","Alte riscuri (incendiu, furt, apă din țevi): pentru ele este nevoie de asigurarea facultativă"],
+cost:"130 lei / an (standard)."},
+{id:"animale",t:"Animale de companie",lead:"Câini și pisici, între 4 luni și 12 ani, cu carnet de sănătate.",
+ac:["Pachet accidente: consultații și tratamente după accident rutier, cădere, arsuri, mușcături, dezastre naturale","Pachet îmbolnăvire și accidente: acoperă și îmbolnăvirea","În toate pachetele: răspundere civilă și mușcătură sau înțepătură de căpușă (max. 2.000 lei, un eveniment pe an)","Opțional: incinerare sau înmormântare, extindere teritorială pentru accidente (oriunde în lume)","Din al doilea animal asigurat, prima scade cu 10%"],
+no:["Accidente din neglijența stăpânului","Boli preexistente","Lupte organizate sau competiții","Rase de câini considerate periculoase (conform legii)"],
+extra:'<h3>Perioadă de așteptare (Asirom)</h3>'+li(["Accidente: fără perioadă de așteptare, acoperirea începe în ziua următoare plății primei","Boală acută: 30 de zile","Boală cronică: 90 de zile"])+'<h3>Prețuri exacte (pe an)</h3><div class="tw"><table><tr><th></th><th>Silver</th><th>Gold</th><th>Platinum</th></tr><tr><td>Accidente: primă</td><td>325 lei</td><td>500 lei</td><td>700 lei</td></tr><tr><td>Accidente: sumă asigurată</td><td>5.000 lei</td><td>10.000 lei</td><td>15.000 lei</td></tr><tr><td>Accidente: franșiză</td><td>250 lei</td><td>500 lei</td><td>500 lei</td></tr><tr><td>Îmbolnăvire și accidente: primă</td><td>900 lei</td><td>1.650 lei</td><td>2.350 lei</td></tr><tr><td>Îmbolnăvire și accidente: franșiză</td><td>500 lei</td><td>500 lei</td><td>500 lei</td></tr></table></div><p class="ft">Incinerare/înmormântare 100 lei/an, extindere teritorială 100 lei/an. Plata: lunar, trimestrial, semestrial sau anual.</p>'},
+{id:"rc",t:"Răspundere civilă",lead:"Urmează.",html:'<p class="sub">Documentele se completează ulterior.</p>'}];
+function asigurari(sub){
+var p=AS.filter(function(x){return x.id===sub})[0]||AS[0];
+var h='<h1>Asigurări</h1><p class="sub">Alege o asigurare: vezi ce acoperă și ce nu acoperă.</p><div class="chips">'+AS.map(function(x){return'<a href="#asigurari-'+x.id+'"'+(x===p?' class="on"':'')+'>'+x.t+'</a>'}).join("")+'</div><h2 style="margin-top:0">'+p.t+'</h2><p class="sub">'+p.lead+'</p>';
+if(p.html)return h+p.html;
+if(p.opp)h+=p.opp;h+='<div class="cols"><div class="c yes"><h3>Ce acoperă</h3>'+li(p.ac)+'</div><div class="c nope"><h3>Ce nu acoperă</h3>'+li(p.no)+'</div></div>';
+if(p.extra&&p.id!=="casco")h+=p.extra;
+if(p.cost)h+='<div class="cost"><b>Cost orientativ.</b> '+p.cost+'</div>';
+if(p.id==="casco")h+=p.extra;
+return h}
+
+/* ---------- CAMPANIE + CONTACT ---------- */
+function campanie(){
+return'<h1>Campanie Allianz</h1><p class="sub">Locuință: facultativă cu PAD gratuit și reducere în plus.</p><div class="note" style="margin:0 0 18px"><span class="red">Valabilă doar până luni, 30 noiembrie 2026.</span></div>'+
+'<div class="g"><div class="c dk"><div class="big">130 lei</div><h3>PAD gratuit</h3><p>Dacă își face facultativa pentru locuință, primește PAD-ul gratis. E deja un beneficiu financiar de 130 lei.</p></div><div class="c dk"><div class="big">8–15%</div><h3>Reducere în plus</h3><p>Pe lângă PAD gratuit, putem adăuga o reducere suplimentară între 8% și 15%.</p></div></div>'+
+'<h2>Tips &amp; tricks</h2><div class="g"><div class="c so"><h3>Apartamentele: cel mai ieftin și se merită</h3><p>Pentru oamenii care au apartament, facultativa e mai ieftină și se merită cel mai mult. Cu PAD-ul gratuit, diferența de cost abia se mai simte.</p></div><div class="c so"><h3>Casele: un pic mai scump</h3><p>La casă prima e mai mare, așa că reducerea și PAD-ul gratuit contează mai mult. Spune-le clienților din prima.</p></div><div class="c so"><h3>Cum o prezinți</h3><p class="q" style="margin-top:0">„PAD-ul îl primești gratis dacă faci facultativa. De ce să plătești 130 lei, când îl poți avea fără?”</p></div><div class="c so"><h3>De ce acum</h3><p>8 din 10 locuințe nu au facultativă. Cine are doar PAD e protejat doar la cutremur, inundații naturale și alunecări de teren.</p></div></div>'+
+'<p class="note">Condițiile exacte ale campaniei (perioadă, reducerea finală) se confirmă la specialist înainte de a le promite clientului. Pentru ofertă, folosește template-ul PAD + facultativă din <a class="blue" href="#proceduri">Proceduri</a>.</p>'}
+function contact(){
+return'<h1>Contact</h1><p class="sub">Dacă nu găsești răspunsuri la întrebările pe care le au clienții, scrie-mi pe WhatsApp.</p><div class="c dk"><h3>Walter Benedek</h3><p style="font-size:22px;color:#fff">0729 839 908</p><a class="btn" href="https://wa.me/40729839908" target="_blank" rel="noopener">Scrie pe WhatsApp</a><a class="btn" href="tel:+40729839908">Sună</a></div>'}
+
+/* ---------- ROUTER ---------- */
+function show(){
+var raw=(location.hash||"#acasa").slice(1),parts=raw.split("-"),tab=parts[0];
+if(!TABS.some(function(t){return t[0]===tab}))tab="acasa";
+document.getElementById("tabs").innerHTML=TABS.map(function(t){var c=[t[0]===tab?'on':'',t[0]==='contact'?'r':''].join(' ').trim();return'<a href="#'+t[0]+'"'+(c?' class="'+c+'"':'')+'>'+t[1]+'</a>'}).join("");
+var h=tab==="acasa"?acasa():tab==="proceduri"?proceduri():tab==="cab"?cab():tab==="campanie"?campanie():tab==="contact"?contact():asigurari(parts.slice(1).join("-"));
+document.getElementById("app").innerHTML=h;
+if(!(tab==="asigurari"&&parts[1]===undefined&&false))scrollTo(0,0)}
+document.getElementById("app").addEventListener("click",function(e){
+var b=e.target.closest("button[data-i]");if(!b)return;
+var t=document.getElementById("t"+b.dataset.i).textContent;
+try{navigator.clipboard.writeText(t).then(function(){b.textContent="Copiat"},function(){b.textContent="Selectează manual"})}catch(x){b.textContent="Selectează manual"}
+setTimeout(function(){b.textContent="Copiază textul"},1800)});
+addEventListener("hashchange",show);show();
+</script>
+</body>
+</html>
